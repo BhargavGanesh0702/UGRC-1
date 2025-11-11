@@ -24,7 +24,7 @@ Before executing `AutoTest.py` do the following
 3. Change feature sizes in `Main.cu`
 4. Decide upon model configuration (hidden layer sizes, no of hidden layers, no of epoch, learning rate) and use same in both `Main.cu` and `PyTorch.py`
 5. change iterations variable in `AutoTest.py` if you want
-5. Run `python3 AutoTest.py`
+5. Run `python3 Testing/AutoTest.py` from main folder.
 
 This will run `./Main.cu`, `PyTorch.py` in cpu , `PyTorch.py` in gpu iterations no of times and prints avg timings, avg losses, avg epoch errors.
 
