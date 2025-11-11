@@ -20,7 +20,7 @@
 I wrote `AutoTest.py` in `Testing` folder to partially automate testing
 Before executing `AutoTest.py` do the following
 1. Decide upon a testcase inside `Testcases` (Use only scaled testcases. If you want to use new testcase scale the data using `data_scaling.py` in the same folder)
-2. Change paths of train and test csv files in `Main.cu` and `AutoTest.py`
+2. Change paths of train and test csv files in `Main.cu` and `AutoTest.py`. These paths should be relative to main folder.
 3. Change feature sizes in `Main.cu`
 4. Decide upon model configuration (hidden layer sizes, no of hidden layers, no of epoch, learning rate) and use same in both `Main.cu` and `PyTorch.py`
 5. change iterations variable in `AutoTest.py` if you want
